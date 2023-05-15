@@ -85,7 +85,7 @@ header img {
   width: 350px;
   float: right;
   position: relative;
-  margin-top: -300px;
+  margin-top: -350px;
 }
 
 #Denis {
@@ -137,6 +137,7 @@ div.scrollmenu {
   white-space: nowrap;
   width: 100vw;
   margin-top: 100px;
+  padding-top: 200px;
 }
 
 div.scrollmenu a {
@@ -161,6 +162,10 @@ div.scrollmenu a {
   margin-left: -200px;
 }
 
+/* #shirts {
+  margin-top: -200px;
+} */
+
 #toenstraks:hover {
   transform: scale(1.2);
 }
@@ -181,26 +186,75 @@ footer {
   background-color: black;
   position: absolute;
   width: 100vw;
-  height: 500px;
+  height: 720px;
   margin-top: 1700px;
 }
 
 footer h3 {
+  z-index: 1;
+  position: absolute;
   color: #f2e9de;
   font-size: 60px;
   text-align: center;
   padding: 50px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, 0);
 }
 
 footer p {
+  z-index: 1;
+  position: absolute;
   color: #f2e9de;
-  text-align: center;
-  margin-top: 5px;
+  margin-top: 15px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, 0);
+}
+
+#p1 {
+  margin-top: 130px;
+  width: 210px;
+}
+
+#p2 {
+  margin-top: 155px;
+  width: 105px;
+}
+#p3 {
+  margin-top: 180px;
+  width: 168px;
 }
 
 footer hr {
+  position: absolute;
+  z-index: 1;
   margin-top: 70px;
   width: 80%;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 500px;
+  transform: translate(-50%, 0);
+}
+
+#footerimg {
+  z-index: 0;
+  width: 470px;
+  position: relative;
+  margin-left: 65%;
+  transform: translate(-50%, 0);
+}
+
+#footer2 {
+  padding-top: 100px;
+}
+
+#email {
+  width: 15px;
+}
+
+#linkedin {
+  width: 15px;
 }
 
 #personal {
@@ -241,7 +295,7 @@ footer hr {
   position: absolute;
   border-top: 2px solid black;
   width: 90%;
-  margin-top: 600px;
+  margin-top: 630px;
 }
 
 .hl-2 {
@@ -304,6 +358,7 @@ footer hr {
   height: 500px;
   background-color: yellow;
   border-radius: 30px !important;
+  pointer-events: none;
 }
 
 #contentToenstraks {
@@ -312,14 +367,99 @@ footer hr {
   margin-left: 70px;
 }
 
+#contentToenstraks .mouse {
+  width: 30px;
+  position: absolute;
+  margin-left: -40px;
+  margin-top: -50px;
+}
+#contentToenstraks .arrowdown {
+  margin-left: -40px;
+  position: absolute;
+  margin-top: -25px;
+}
+
+#contentToenstraks .mouse1 {
+  width: 30px;
+  position: absolute;
+  margin-left: 82%;
+  margin-top: -50px;
+}
+#contentToenstraks .arrowdown1 {
+  margin-left: 82%;
+  position: absolute;
+  margin-top: -25px;
+  width: 30px;
+}
+
+/* #contentToenstraks .picturescroll img:hover {
+  width: 180%;
+  overflow: visible;
+  z-index: 2;
+  position: absolute;
+} */
+
 #contentShirts {
   margin-top: 40px;
   margin-left: 70px;
 }
 
+#contentShirts .mouse1 {
+  width: 30px;
+  position: absolute;
+  margin-left: 82%;
+  margin-top: -50px;
+}
+#contentShirts .arrowdown1 {
+  margin-left: 82%;
+  position: absolute;
+  margin-top: -25px;
+  width: 30px;
+}
+
 #contentCode {
   margin-top: 40px;
   margin-left: 70px;
+}
+
+#contentCode .mouse {
+  width: 30px;
+  position: absolute;
+  margin-left: -40px;
+  margin-top: -50px;
+}
+
+#contentCode .arrowdown {
+  margin-left: -40px;
+  position: absolute;
+  margin-top: -25px;
+}
+
+#contentCode #codeimg1 {
+  margin-top: -410px;
+  margin-left: 75%;
+  position: absolute;
+  width: 100px;
+}
+
+#contentCode video {
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 55%;
+}
+
+#contentCode #codeimg3 {
+  margin-left: 55%;
+  position: absolute;
+  margin-top: -120px;
+  width: 280px;
+  transition-delay: 0.2s;
+}
+
+#contentCode #codeimg3:hover {
+  width: 80%;
+  margin-left: 0%;
+  margin-top: -45%;
 }
 
 #contentGenart {
@@ -341,7 +481,7 @@ footer hr {
   margin-top: -20px;
 }
 h3 {
-  font-size: 100px;
+  font-size: 80px;
 }
 
 h4 {
@@ -377,7 +517,7 @@ h4 {
   margin-left: 60%;
   margin-top: -280px;
   overflow-y: scroll;
-  height: 250px;
+  height: 275px;
 }
 
 .picturescroll img {
@@ -389,16 +529,18 @@ h4 {
   margin-left: 76%;
 }
 
-#contentGenart #art {
-  margin-top: -400px;
+#contentGenart #video1 {
+  margin-top: -380px;
   position: absolute;
-  margin-left: 250px;
+  margin-left: 55%;
+  width: 250px;
 }
 
-#contentGenart #vid {
-  margin-top: -240px;
+#contentGenart #video2 {
+  margin-top: -220px;
   position: absolute;
-  margin-left: 250px;
+  margin-left: 55%;
+  width: 250px;
 }
 
 #software img {
