@@ -587,7 +587,7 @@ h4 {
 /* web */
 @media only screen and (min-width: 950px) {
   body {
-    background-color: red;
+    /* background-color: red; */
   }
 }
 
