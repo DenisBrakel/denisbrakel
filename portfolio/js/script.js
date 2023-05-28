@@ -39,3 +39,9 @@ $("#genart").click(function () {
   //   $(".modal").style.display = "block";
   $("#modalGenart").modal();
 });
+
+$("#jeuk").click(function () {
+  console.log("hallo");
+  //   $(".modal").style.display = "block";
+  $("#modalJeuk").modal();
+});
