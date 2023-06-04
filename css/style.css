@@ -586,13 +586,10 @@ h4 {
 
 /* web */
 @media only screen and (min-width: 950px) {
-  body {
-    /* background-color: red; */
-  }
 }
 
 /* tablet */
-@media only screen and (max-width: 950px) {
+@media only screen and (min-width: 421px) and (max-width: 950px) {
   nav {
     padding-left: 0%;
   }
@@ -728,7 +725,174 @@ h4 {
 
 /* phone */
 @media only screen and (max-width: 420px) {
-  body {
-    background-color: yellow;
+  nav {
+    font-size: 10px;
+    margin-left: 20px;
+    padding-left: 0%;
+  }
+
+  nav p {
+    margin-left: 20px;
+  }
+
+  header img {
+    width: 130%;
+  }
+
+  #zwartedriehoek {
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+
+  #WHO #container {
+    padding-top: 70px;
+    width: 100%;
+    margin-left: 55%;
+  }
+
+  #WHO h1 {
+    font-size: 40px;
+  }
+
+  #WHO p {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  #WHO #container #Denis {
+    width: 60%;
+    margin-top: -480px;
+    margin-right: 10%;
+    z-index: -1;
+  }
+
+  #Denis {
+    --g: 0;
+    --b: 0;
+
+    padding-top: 200px;
+  }
+
+  #projects {
+    margin-top: 600px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  div.scrollmenu {
+    margin-top: -50px;
+    /* height: 200px; */
+  }
+
+  div.scrollmenu a img {
+    width: 200px;
+    /* margin-left: ; */
+  }
+
+  div.scrollmenu a {
+    width: 200px;
+    height: 200px;
+  }
+
+  #toenstraks {
+    margin-top: -500px;
+  }
+
+  #genart {
+    margin-top: -200px;
+  }
+
+  #sunnycode {
+    padding-top: 100px;
+  }
+
+  #jeuk {
+    margin-left: -200px;
+  }
+
+  #arrowside {
+    margin-top: 800px;
+    height: 40px;
+  }
+
+  footer {
+    margin-top: 1200px;
+  }
+
+  .modal {
+    max-width: 420px !important;
+  }
+  h3 {
+    font-size: 40px;
+  }
+
+  .modal p {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  #contentToenstraks {
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  #contentShirts {
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  #contentCode {
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  #contentJeuk {
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  #contentGenart {
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  #contentGenart #video1 {
+    margin-top: -300px;
+    width: 150px;
+  }
+
+  #contentGenart #video2 {
+    margin-top: -200px;
+    width: 150px;
+  }
+
+  #contentCode #codeimg1 {
+    width: 70px;
+    margin-top: -300px;
+  }
+
+  #contentCode video {
+    width: 150px;
+    margin-top: -200px;
+  }
+
+  #contentCode #codeimg3 {
+    width: 150px;
+    margin-top: -100px;
+  }
+  #contentJeuk #kalander {
+    width: 150px;
+    margin-top: -150px;
+  }
+  #contentJeuk #powerpoint {
+    width: 150px;
+    margin-top: -250px;
+  }
+
+  #contentJeuk #sticker1 {
+    width: 80px;
   }
 }
